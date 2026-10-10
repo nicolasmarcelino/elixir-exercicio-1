@@ -22,13 +22,3 @@ defmodule RelatorioVendas do
     pedidos |> Enum.filter(fn pedido -> pedido.status == :pago end) |> calcular()
   end
 end
-
-
-pedidos = [
-  %{id: 1, cliente: "Ana", valor: 120.0, status: :pendente},
-  %{id: 2, cliente: "Beto", valor: 45.5, status: :pago},
-  %{id: 3, cliente: "Carla", valor: 310.0, status: :pendente},
-  %{id: 4, cliente: "Ana", valor: 80.0, status: :pago}
-]
-
-IO.inspect(RelatorioVendas.gerar(pedidos))

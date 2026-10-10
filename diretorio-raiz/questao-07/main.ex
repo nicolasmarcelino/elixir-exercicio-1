@@ -35,11 +35,3 @@ defmodule Cadastro do
     end
   end
 end
-
-IO.inspect(
-  Cadastro.processar_usuario(%{
-    nome: "Lucas",
-    email: "lucas@test.com",
-    idade: 19
-  })
-)

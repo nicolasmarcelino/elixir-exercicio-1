@@ -12,5 +12,3 @@ defmodule Texto do
     |> Enum.sort()
   end
 end
-
-# IO.inspect(Texto.palavras_unicas("Elixir é incrível! Aprender Elixir torna a programação divertida."))

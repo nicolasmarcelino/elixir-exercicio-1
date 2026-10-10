@@ -31,6 +31,3 @@ do
   end
 
 end
-
-# IO.inspect(MeuEnum.filtrar([1, 2, 3, 4, 5, 6], fn x -> rem(x, 2) == 0 end))
-# IO.inspect(MeuEnum.filtrar(["gato", "elefante", "cão"], &(String.length(&1) > 3)))
