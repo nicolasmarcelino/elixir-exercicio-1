@@ -1,2 +1,2 @@
 # elixir-exercicio-1
-Exercício 1 da disciplina de Programação Funcional.
+Lista de exercícios 1 da disciplina de Programação Funcional.
